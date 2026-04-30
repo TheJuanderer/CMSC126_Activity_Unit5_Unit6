@@ -38,6 +38,10 @@ The system will allow:
 ---
 
 ### Backend Tools
+**Node.js + Express:**
+- One of the most widely used backend technologies.
+- Used by Netflix, LinkedIn, and NASA.
+- Well-suited for handling many simultaneous users
 
 ---
 
