@@ -123,8 +123,10 @@ L --> B
 ### Homepage
 
 ### Student Page
+![student page mockup](images/student-page-mockup.png)
 
 ### Schedule / Conflict Check Screen
+![schedule page mockup](images/schedule-page-mockup.png)
 
 ### Login Form
-
+![login page mockup](images/login-page-mockup.png)
