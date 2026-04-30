@@ -125,6 +125,7 @@ L --> B
 
 
 ### Homepage
+![home page mockup](images/home-page-mockup.png)
 
 ### Student Page
 ![student page mockup](images/student-page-mockup.png)
