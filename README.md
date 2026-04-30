@@ -67,7 +67,7 @@ The system will allow:
 
 A[User Opens CRS 2.0] --> B[Homepage]
 
-
+```mermaid
 B --> C{User Action}
 C -->|Login| D[Login Form]
 C -->|Browse Info| E[View Announcements / Info]
@@ -105,10 +105,8 @@ H --> L
 I --> L
 L --> B
 
-```mermaid
-graph TD
-A[Start] --> B[Process]
-B --> C[End]
+
+
 
 ### Homepage
 
