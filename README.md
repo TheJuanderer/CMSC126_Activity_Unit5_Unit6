@@ -19,6 +19,10 @@ The system will allow:
 - Responsive UI for mobile and desktop  
 - Secure authentication and role-based access
 
+**Improvements (to CRS)**
+- Unlike CRS , which may require manual checking, CRS 2.0 instantly detects schedule conflicts, prerequisite issues, and slot availability during registration.
+- CRS 2.0 features a more intuitive and responsive design, making navigation easier for students, faculty, and administrators across both desktop and mobile devices.
+
 **Team Members:**
 
 - \[Brent\]  
