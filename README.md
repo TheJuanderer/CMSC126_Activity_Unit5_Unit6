@@ -34,6 +34,7 @@ The system will allow:
 
 **CSS**
 
+
 ---
 
 ### Backend Tools
@@ -63,10 +64,11 @@ The system will allow:
 ## Mockups
 
 ### Flowchart
+```mermaid
+flowchart LR
 
-
+%% Point of entry
 A[User Opens CRS 2.0] --> B[Homepage]
-
 
 B --> C{User Action}
 C -->|Login| D[Login Form]
@@ -77,13 +79,11 @@ F -->|Student| G[Student Page]
 F -->|Faculty| H[Faculty Dashboard]
 F -->|Admin| I[Admin Dashboard]
 
-
 G --> G1[View Enrolled Subjects]
 G --> G2[Add / Drop Subjects]
 G --> G3[View Schedule]
 
 G2 --> J[Schedule Conflict Screen]
-
 
 J --> J1[Display Selected Courses]
 J --> J2[Visual Conflict Indicators]
@@ -94,16 +94,12 @@ J4 -->|Confirm| G1
 J4 -->|Cancel| G
 
 
-I --> K[Admin Dashboard UI]
-K --> K1[Manage Courses UI]
-K --> K2[View Reports UI]
-K --> K3[System Settings UI]
-
 
 G --> L[Logout]
 H --> L
 I --> L
 L --> B
+```
 
 
 ### Homepage
@@ -112,4 +108,5 @@ L --> B
 
 ### Schedule / Conflict Check Screen
 
-### Additional Page (e.g., Admin Dashboard)
+### Login Form
+
