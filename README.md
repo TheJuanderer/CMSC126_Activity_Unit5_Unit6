@@ -34,6 +34,7 @@ The system will allow:
 
 **CSS**
 
+
 ---
 
 ### Backend Tools
@@ -63,52 +64,42 @@ The system will allow:
 ## Mockups
 
 ### Flowchart
+```mermaid
+flowchart LR
 
-'''mermaid
-    flowchart TD;
+%% Point of entry
+A[User Opens CRS 2.0] --> B[Homepage]
 
-    %%Point of entry
-    A[User Opens CRS 2.0] --> B[Homepage]
+B --> C{User Action}
+C -->|Login| D[Login Form]
+C -->|Browse Info| E[View Announcements / Info]
 
+D --> F{Role Selection}
+F -->|Student| G[Student Page]
+F -->|Faculty| H[Faculty Dashboard]
+F -->|Admin| I[Admin Dashboard]
 
-    B --> C{User Action}
-    C -->|Login| D[Login Form]
-    C -->|Browse Info| E[View Announcements / Info]
+G --> G1[View Enrolled Subjects]
+G --> G2[Add / Drop Subjects]
+G --> G3[View Schedule]
 
-    D --> F{Role Selection}
-    F -->|Student| G[Student Page]
-    F -->|Faculty| H[Faculty Dashboard]
-    F -->|Admin| I[Admin Dashboard]
+G2 --> J[Schedule Conflict Screen]
 
+J --> J1[Display Selected Courses]
+J --> J2[Visual Conflict Indicators]
+J --> J3[Suggested Alternatives]
+J --> J4[Confirm / Cancel Selection]
 
-    G --> G1[View Enrolled Subjects]
-    G --> G2[Add / Drop Subjects]
-    G --> G3[View Schedule]
-
-    G2 --> J[Schedule Conflict Screen]
-
-
-    J --> J1[Display Selected Courses]
-    J --> J2[Visual Conflict Indicators]
-    J --> J3[Suggested Alternatives]
-    J --> J4[Confirm / Cancel Selection]
-
-    J4 -->|Confirm| G1
-    J4 -->|Cancel| G
+J4 -->|Confirm| G1
+J4 -->|Cancel| G
 
 
-    I --> K[Admin Dashboard UI]
-    K --> K1[Manage Courses UI]
-    K --> K2[View Reports UI]
-    K --> K3[System Settings UI]
 
-
-    G --> L[Logout]
-    H --> L
-    I --> L
-    L --> B
-'''
-
+G --> L[Logout]
+H --> L
+I --> L
+L --> B
+```
 
 
 ### Homepage
@@ -117,4 +108,5 @@ The system will allow:
 
 ### Schedule / Conflict Check Screen
 
-### Additional Page (e.g., Admin Dashboard)
+### Login Form
+
