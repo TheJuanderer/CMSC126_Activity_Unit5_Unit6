@@ -32,13 +32,17 @@ The system will allow:
 
 ### Frontend Tools
 
-**CSS**
+**React**
+- Component-based (perfect for dashboards)
+- Good for building dynamic and interactive user interfaces
+- Can create and reuse the elements/components you created
 
 
 ---
 
 ### Backend Tools
 **Node.js + Express:**
+- This combination provides a modern, efficient, and scalable foundation for building the server-side logic required by the system.
 - One of the most widely used backend technologies.
 - Used by Netflix, LinkedIn, and NASA.
 - Well-suited for handling many simultaneous users
@@ -49,21 +53,31 @@ The system will allow:
 
 **MySQL:**
 
-- Relational database ideal for structured data (students, courses, schedules)  
-- Reliable and widely used in production systems
+- Given the structured nature of our data such as students, courses, schedules, and enrollment records. MySQL provides a robust and reliable foundation for handling these relationships efficiently. 
+- It is widely used across industries and has a strong track record of stability and performance. This makes it a dependable choice for managing critical academic data, including enrollment transactions and scheduling information.
 
 ---
 
 ### Other Tools (Optional)
 
 - **Git & GitHub** – Version control and collaboration  
-- **Figma** – UI/UX design and mockups
+- **Figma** – UI/UX wireframes
+- **Canva** - UI/UX page mockups
 
 ---
 
 ## Hosting (Platform for Hosting)
 
+### Frontend Hosting
+**Vercel:**
+- Vercel is designed specifically for frontend applications, particularly those built with React. Given that our interface is built using React, Vercel is a highly suitable choice.
+- Vercel provides a stable and production ready environment with minimal setup. It allows the team to focus on designing and improving the user interface such as dashboards, enrollment pages, and schedule views rather than managing hosting infrastructure.
+
 ---
+### Backend Hosting
+**Render:**
+- This choice aligns well with our current stack (Node.js + Express) and allows us to deploy a reliable, scalable system
+- In terms of cost, Render offers a free tier that is sufficient for development, testing, and even initial deployment. This makes it a practical choice for our current stage. As the system grows and user demand increases, the platform allows us to scale resources without needing to migrate to a different service.
 
 ## Mockups
 
